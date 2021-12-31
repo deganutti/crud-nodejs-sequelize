@@ -1,0 +1,25 @@
+{
+  "name": "crud-nodejs-sequelize",
+  "version": "1.0.0",
+  "description": "crud inicial nodejs com sequelize e mysql",
+  "main": "index.js",
+  "repository": "https://github.com/deganutti/crud-nodejs-sequelize",
+  "author": "Luiz Gabriel Deganutti",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "db" : "sequelize db:migrate",
+    "start": "node app/server.js",
+    "dev": "nodemon app/server.js"
+},
+  "dependencies": {
+    "express": "^4.17.2",
+    "md5": "^2.3.0",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.12.4",
+    "sequelize-cli": "^6.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
