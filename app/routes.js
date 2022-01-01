@@ -15,7 +15,6 @@ routes.get('/',(req, res) => {
         "Versão":"1.0.0",
         "Aplicação":"Crud NodeJs com Sequelize e Mysql",
         "Contato":{  
-            "Whatsapp":"+55(44)9.9818-0434",
             "E-Mail":"deganutti@outlook.com",
         }
     });
