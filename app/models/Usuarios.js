@@ -13,7 +13,7 @@ class Usuarios extends Model{
     static associate(models){
         this.belongsTo(models.Nivel_Acesso,{
             foreignKey:'id_nivel_acesso',
-            as:'Nivel_Acesso'
+            as:'nivel_acesso'
         });
     }
 }

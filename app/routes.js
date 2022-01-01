@@ -29,5 +29,8 @@ routes.delete('/nivelacesso/:id', NivelAcessoController.del);
 //rota de usuarios
 routes.get('/usuarios',UsuariosController.index);
 routes.post('/usuarios',UsuariosController.store);
+routes.put('/usuarios/:id',UsuariosController.post);
+routes.delete('/usuarios/:id',UsuariosController.del);
+
 
 module.exports = routes;
